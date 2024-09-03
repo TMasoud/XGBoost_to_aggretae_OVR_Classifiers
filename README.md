@@ -1,8 +1,10 @@
 # XGBoost_to_aggretae_OVR_Classifiers
-An implementation of XGBoost classifier model for aggregation of multiple One-Vs-Rest classifiers.
+An implementation of the XGBoost classifier model for aggregation of multiple One-Vs-Rest classifiers.
+In this example, each Var column may be a score or quantification from a classifier or any other measure.
 
-## Preparing CSV files
-To give the inputs to the XGBoost in this code, you need to make a CSV file like the one below:
+
+## Preparing input file (CSV)
+To feed the train and test sets to the XGBoost in this code, you need to make CSV files like the one below:
 
 | Var1    |  Var2   |  Var3   |  Var4   |  Var5   |  Var6   |  Var7   |  Var8   | Label   |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|
