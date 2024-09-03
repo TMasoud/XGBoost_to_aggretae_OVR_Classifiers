@@ -12,3 +12,6 @@ To give the inputs to the XGBoost in this code, you need to make a CSV file like
 | 106     | 111     | 203     | 354     | 19      | 18      | 332     | 196     | Class-C |
 | ...     | ...     | ...     | ...     | ...     | ...     | ...     | ...     | ...     |
 
+## Code
+The code begins with finding the best training parameters using the hyperopt library (https://hyperopt.github.io/hyperopt/).
+
