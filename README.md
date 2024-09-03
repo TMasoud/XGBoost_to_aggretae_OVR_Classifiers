@@ -17,4 +17,8 @@ To feed the train and test sets to the XGBoost in this code, you need to make CS
 ## Code
 The code begins with finding the best training parameters using the hyperopt library (https://hyperopt.github.io/hyperopt/).
 
+## Output
 After training, you can feed the test set to evaluate the model performance. The metrics include Precision, Recall, Specificity, F1, and a confusion matrix.
+In addition, the predictions of the XGBoost model will be saved in a separate CSV file.
+
+<img src="xgb_output.png" alt="An example output of XGBoost model for four classes." width="800"/>
