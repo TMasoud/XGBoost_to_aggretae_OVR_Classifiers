@@ -14,8 +14,9 @@ To feed the train and test sets to the XGBoost in this code, you need to make CS
 | 106     | 111     | 203     | 354     | 19      | 18      | 332     | 196     | Class-C |
 | ...     | ...     | ...     | ...     | ...     | ...     | ...     | ...     | ...     |
 
-## Code
+## Notes
 The code begins with finding the best training parameters using the hyperopt library (https://hyperopt.github.io/hyperopt/).
+You can modify the code to accommodate a different number of classes, evaluation metrics for calculating loss, etc. simply by changing the parameters (and the input file!).
 
 ## Output
 After training, you can feed the test set to evaluate the model performance. The metrics include Precision, Recall, Specificity, F1, and a confusion matrix.
